@@ -1,6 +1,6 @@
 // Funzione per ottenere il prezzo di XAU/USD da Alpha Vantage
 async function getXAUUSD() {
-    const apiKey = 'YOUR_API_KEY'; // Inserisci la tua API key qui
+    const apiKey = 'HGPCM4IN5U4DERHK'; // La tua API key
     const url = `https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=XAUUSD&interval=5min&apikey=${apiKey}`;
 
     try {
